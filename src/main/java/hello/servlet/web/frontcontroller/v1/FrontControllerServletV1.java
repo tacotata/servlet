@@ -15,7 +15,7 @@ import java.util.Map;
 
 
 ///front-controller/v1/* 하위호출은 서블릿이 다 호출되는거임
-@WebServlet(name="frontControllerServlet1", urlPatterns = "/front-controller/v1/*")
+@WebServlet(name="frontControllerServletV1", urlPatterns = "/front-controller/v1/*")
 public class FrontControllerServletV1 extends HttpServlet {
 
     private Map<String, ControllerV1> controllerMap = new HashMap<>();
